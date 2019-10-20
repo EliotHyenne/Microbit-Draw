@@ -1,5 +1,5 @@
 How to install:
-- Drag the .hex file to your Microbit.
+- Download and drag the .hex file to your Microbit.
 
 Controls:
 - Use the accelerometer to move the LED 'cursor' on the Microbit around.
