@@ -9,4 +9,4 @@ This is a fun Python program for the Microbit alowing the user to draw using the
 - Press A while on a point to delete it.
 - Shake Microbit to clear the drawing.
 - Press A and B simultaneously to freeze the drawing in place:
-    * While in freeze mode press A again to return to editing your drawing
+    * While in freeze mode press A again to return to editing your drawing.
