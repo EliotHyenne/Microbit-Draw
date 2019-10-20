@@ -1,3 +1,5 @@
+This is a fun Python program for the microbit alowing the user to draw using the built-in accelerometer and LED screen.
+
 How to install:
 - Download and drag the .hex file to your Microbit.
 
