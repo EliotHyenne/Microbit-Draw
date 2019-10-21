@@ -29,26 +29,26 @@ def updatePos(x, y):
     x = 2
     y = 2
 
-    if (microbit.accelerometer.get_x() <= -550):
+    if microbit.accelerometer.get_x() <= -550:
         x = 0
-    elif (-550 < microbit.accelerometer.get_x() <= -250):
+    elif -550 < microbit.accelerometer.get_x() <= -250:
         x = 1
-    elif (-250 < microbit.accelerometer.get_x() <= 250):
+    elif -250 < microbit.accelerometer.get_x() <= 250:
         x = 2
-    elif (250 < microbit.accelerometer.get_x() <= 550):
+    elif 250 < microbit.accelerometer.get_x() <= 550:
         x = 3
-    elif (microbit.accelerometer.get_x() > 550):
+    elif microbit.accelerometer.get_x() > 550:
         x = 4
 
-    if (microbit.accelerometer.get_y() <= -550):
+    if microbit.accelerometer.get_y() <= -550:
         y = 0
-    elif (-550 < microbit.accelerometer.get_y() <= -250):
+    elif -550 < microbit.accelerometer.get_y() <= -250:
         y = 1
-    elif (-250 < microbit.accelerometer.get_y() <= 250):
+    elif -250 < microbit.accelerometer.get_y() <= 250:
         y = 2
-    elif (250 < microbit.accelerometer.get_y() <= 550):
+    elif 250 < microbit.accelerometer.get_y() <= 550:
         y = 3
-    elif (microbit.accelerometer.get_y() > 550):
+    elif microbit.accelerometer.get_y() > 550:
         y = 4
 
     microbit.display.clear()
