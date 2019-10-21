@@ -9,10 +9,7 @@ def newPoint(x, y):
     points.append([x, y])
 
 def removePoint(x, y):
-    for i in range(len(points)):
-        if points[i][0] == x and points[i][1] == y:
-            points.remove(points[i])
-            break
+    points.remove([x, y])
 
 def setPoints(array):
     if array:
