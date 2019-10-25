@@ -3,7 +3,7 @@
 Fun Python program for the Micro:Bit alowing the user to draw by using the built-in accelerometer and LED screen.
 
 **How to install**:
-- Download and drag the Microbit_Draw.hex file to your Micro:Bit folder on your computer.
+- Download and drag the `Microbit-Draw.hex` file to your Micro:Bit folder on your computer.
 
 **Controls**:
 - Use the accelerometer to move the LED 'cursor' on the Micro:Bit around.
